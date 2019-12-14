@@ -9,4 +9,5 @@ public class Movie {
     private Properties properties;
     private Integer id;
     private String name;
+    private String test;
 }
