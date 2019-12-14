@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="student" class="com.redbean.test.redis.bean.Student">
+
+        <property name="properties">
+            <props>
+                <prop key="testA">aaa</prop>
+                <prop key="testC">ccc</prop>
+                <prop key="testB">bbb</prop>
+                <prop key="testD">ddd</prop>
+                <prop key="testE">eee</prop>
+            </props>
+        </property>
+
+    </bean>
+
+
+
+</beans>
