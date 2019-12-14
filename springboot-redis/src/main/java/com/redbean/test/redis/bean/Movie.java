@@ -10,4 +10,5 @@ public class Movie {
     private Integer id;
     private String name;
     private String test;
+    private String test2;
 }
